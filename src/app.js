@@ -3,10 +3,15 @@ const cors = require('cors');
 
 const app = express();
 
+// Middleware
 app.use(cors({ origin: "http://localhost:3000" }));
-
 app.use(express.json());
 
+// Routes
+const educationRoutes = require('./routes/educationRoutes');
+app.use('/api/education', educationRoutes);
+
+// Default route
 app.get('/', (req, res) => {
   res.send('API is running...');
 });
