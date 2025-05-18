@@ -14,6 +14,9 @@ const skillRoutes = require('./routes/skillRoutes');
 app.use('/api/skills', skillRoutes);
 const projectRoutes = require('./routes/projectRoutes');
 app.use('/api/projects', projectRoutes);
+const experienceRoutes = require('./routes/experienceRoutes');
+app.use('/api/experience', experienceRoutes);
+
 
 
 
