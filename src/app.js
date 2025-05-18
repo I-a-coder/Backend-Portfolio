@@ -10,6 +10,9 @@ app.use(express.json());
 // Routes
 const educationRoutes = require('./routes/educationRoutes');
 app.use('/api/education', educationRoutes);
+const skillRoutes = require('./routes/skillRoutes');
+app.use('/api/skills', skillRoutes);
+
 
 // Default route
 app.get('/', (req, res) => {
