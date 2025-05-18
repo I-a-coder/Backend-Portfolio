@@ -12,6 +12,9 @@ const educationRoutes = require('./routes/educationRoutes');
 app.use('/api/education', educationRoutes);
 const skillRoutes = require('./routes/skillRoutes');
 app.use('/api/skills', skillRoutes);
+const projectRoutes = require('./routes/projectRoutes');
+app.use('/api/projects', projectRoutes);
+
 
 
 // Default route
