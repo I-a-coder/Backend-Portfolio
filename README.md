@@ -21,9 +21,16 @@ This repository contains a full-stack personal portfolio project built using the
 - MongoDB with Mongoose ODM
 - Modular route/controller structure
 
-###  Optional Features
-- JWT Authentication (`feature/auth-validation` branch)
-- Input validation via `express-validator`
+### Working Local Backend
+
+To run the backend locally:
+
+```bash
+cd backend
+npm install
+npm run dev
+
+
 
 ### 🧪 API Testing
 - Postman collection (`postman/portfolio-crud.postman_collection.json`)
