@@ -29,6 +29,7 @@ To run the backend locally:
 cd backend
 npm install
 npm run dev
+```
 
 
 
